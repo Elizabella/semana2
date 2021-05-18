@@ -1,0 +1,338 @@
+@import url(../css/fonts.css);
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: "Commissioner-Light";
+    background-color: #d4d4d4;
+    font-size: 16px;
+}
+
+.container:before {
+    content: "";
+    background-image: url("../assets/images/image-hero-desktop.jpg");
+    background-color: hsl(356, 100%, 66%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: -30px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    font-family: "Commissioner-Bold";
+}
+
+.container {
+    position: relative;
+    height: 50vh;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    align-items: center;
+    justify-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.menu .nav__item {
+    margin: 30px;
+    align-items: center;
+}
+
+
+/*segundo container*/
+
+.container__2 {
+    background-color: white;
+    font-family: "Commissioner-Bold";
+    text-align: center;
+    align-items: center;
+    width: 800px;
+    height: 300px;
+    margin-left: 30%;
+    position: relative;
+    bottom: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px #d4d4d4;
+}
+
+.container__2 img {
+    bottom: 30px;
+    position: relative;
+}
+
+.container__2 h1 {
+    margin-bottom: 30px;
+}
+
+.container__2 p {
+    font-family: "Commissioner-Light";
+    font-size: 20px;
+    color: #afafaf;
+}
+
+.container__2 ul {
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+.container__2 .li__green {
+    color: white;
+    background-color: hsl(176, 72%, 28%);
+    margin: 30px;
+    border-radius: 50px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Commissioner-Bold";
+    transition: all 0.3s;
+}
+
+
+.container__2 .li__img {
+    color: white;
+    background-color: #d4d4d4;
+    border-radius: 50px;
+    padding-right: 20px;
+    font-family: "Commissioner-Bold";
+    transition: all 0.3s;
+}
+
+
+
+.container__2 i {
+    border-radius: 100%;
+    padding: 20px;
+    color: white;
+    background-color: hsl(176, 72%, 28%);
+    position: relative;
+}
+
+
+/*Contenedor 3*/
+
+.container__3 {
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    width: 800px;
+    height: 200px;
+    margin-left: 30%;
+    margin-top: 30px;
+    position: relative;
+    bottom: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px #d4d4d4;
+}
+
+.container__3 ul {
+    display: flex;
+    list-style: none;
+    font-family: "Commissioner-Bold";
+}
+
+.container__3 ul li {
+    margin-top: 30px;
+    margin-right: 40px;
+    text-align: left;
+    font-size: 40px;
+    border-left: 1px solid #d4d4d4;
+    padding-left: 80px;
+}
+
+.container__3 p {
+    font-size: 20px;
+    font-family: "Commissioner-Light";
+    color: #afafaf
+}
+
+.container__3 .container__3__barra {
+    border: 1px solid #e7e7e7;
+    border-radius: 40px;
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 40px;
+}
+
+.container__3__barra>hr {
+    color: #f0f0f0;
+    background: hsl(176, 72%, 28%);
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px 20px;
+    border-radius: 10px;
+    animation: progress-bar 2s;
+}
+
+
+
+.container__4 {
+    background-color: white;
+    width: 800px;
+    height: 230vh;
+    margin-left: 30%;
+    margin-top: 30px;
+    bottom: 80px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px #d4d4d4;
+}
+
+.container__4 .paragraph__1 h2 {
+    padding-top: 40px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    font-family: 'Commissioner-Bold';
+}
+
+.container__4 .paragraph__1 p {
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+    font-family: "Commissioner-Light";
+    color: #afafaf
+}
+
+.container__4__Bamboo {
+    border-radius: 20px;
+    box-shadow: 0px 1px 8px #e4e0e0;
+    width: 700px;
+    height: 300px;
+    margin-bottom: 30px;
+    position: relative;
+    left: 50px;
+}
+
+.container__4__Bamboo ul,
+.container__4__Mahogany ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.container__4__Bamboo li,
+.container__4__Mahogany li {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    font-family: 'Commissioner-Bold';
+    color: hsl(176, 50%, 47%);
+    ;
+}
+
+.container__4__Bamboo li h2,
+.container__4__Mahogany li h2 {
+    color: black;
+}
+
+.container__4__Bamboo p,
+.container__4__Mahogany p {
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+    font-family: "Commissioner-Light";
+    color: #afafaf;
+    text-align: justify;
+}
+
+.nav__second li {
+    display: flex;
+    color: #afafaf;
+    font-family: "Commissioner-Light";
+    align-items: center;
+}
+
+.nav__second h2 {
+    color: black;
+    font-family: "Commissioner-bold";
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.nav__second p {
+    color: #afafaf;
+    font-size: 10px;
+}
+
+.btn__reward {
+    background-color: hsl(176, 72%, 28%);
+    border: none;
+    font-family: "Commissioner-Light";
+    color: white;
+    transition: all 0.2s;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 10px;
+    border-radius: 50px;
+}
+
+
+.btn__reward_green {
+    background-color: hsl(176, 50%, 47%);
+    border: none;
+    font-family: "Commissioner-Light";
+    color: white;
+    transition: all 0.2s;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 10px;
+    border-radius: 50px;
+}
+
+
+div .container__4__Mahogany {
+    pointer-events: none;
+    opacity: 0.5;
+    background: rgb(238, 236, 236);
+    border-radius: 20px;
+    box-shadow: 0px 1px 8px #e4e0e0;
+    width: 700px;
+    height: 300px;
+    margin-bottom: 30px;
+    position: relative;
+    left: 50px;
+}
+
+.btn__reward_disabled {
+    background-color: hsl(0, 1%, 60%);
+    border: none;
+    font-family: "Commissioner-Light";
+    color: white;
+    transition: all 0.2s;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 10px;
+    border-radius: 50px;
+}
